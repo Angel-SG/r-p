@@ -1,0 +1,16 @@
+{
+    "reviews" : [
+        {
+            "id": 0,
+            "name": "Stephanie Hague-Evans",
+            "description": "Angel is a pleasure to work with and brings tangible positive energy into a room. He is a skilled developer, who brought fresh creative influence and new ideas to our tech workflow. He was a fantastic addition to our Design & Development team, getting stuck into multiple projects without hesitation, and quickly building strong relationships with those around him. Angel is driven and hard-working; he would be an asset to any business.",
+            "title": "People Director at Fizzboxcom Ltd & The Eventa Group" 
+        },
+        {
+            "id": 1,
+            "name": "Arabella Scarman",
+            "description": "I managed Angel during his time at the Eventa Group. Angel possesses excellent skills and ability to develop utilising his knowledge and experience. Angel produced some first rate front end development work, helping to improve user journeys and improve conversion, He often goes above and beyond to achieve results. Angel is a great member of the team, pleasant, courteous and a joy to work with.",
+            "title": "Marketing and Digital Consultant" 
+        }
+    ]
+}
