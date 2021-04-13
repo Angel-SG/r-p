@@ -128,11 +128,6 @@ export default (props) => (
   <StaticQuery
     query={graphql`
       query {
-        allFile {
-          nodes {
-            publicURL
-          }
-        }
         dataJson {
           projects {
             description

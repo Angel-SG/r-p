@@ -3,15 +3,72 @@ import { StaticQuery, graphql, Link } from "gatsby";
 import { Container, Row, Col } from "react-grid-system";
 import Layout from "../components/layout";
 import styled from "styled-components";
+import AppImage from "../images/divergent_sketch.png";
+import AgImage from "../images/AG_logo_sketch.png";
+import MgImage from "../images/MG_logo_sketch.png";
+import GokuImage from "../images/Dragon_Ball_Z_sketch.png";
+import FemmeImage from "../images/Femme_system_sketch.png";
+import PopArtImage from "../images/Pop_art_sketch_photo.png";
 
 const ProjectPage = ({ props }) => {
   const [addClass, setAddClass] = useState("");
 
-  console.log(props);
+  console.log(props.path);
 
   useEffect(() => {
     setAddClass("loaded");
   }, []);
+
+  const renderImage = () => {
+    if (props.path === "/projects/ag-logo-design") {
+      return AgImage;
+    }
+    if (props.path === "/projects/femme-illustration") {
+      return FemmeImage;
+    }
+    if (props.path === "/projects/divergent-ux-app") {
+      return AppImage;
+    }
+    if (props.path === "/projects/mg-visual-identity") {
+      return MgImage;
+    }
+    if (props.path === "/projects/pop-art-illustration") {
+      return PopArtImage;
+    }
+    if (props.path === "/projects/manga-illustration") {
+      return GokuImage;
+    }
+  };
+
+  const smallImageClass = () => {
+    if (
+      props.path === "/projects/divergent-ux-app" ||
+      props.path === "/projects/pop-art-illustration"
+    ) {
+      return "small-image";
+    }
+  };
+
+  const renderColourClass = () => {
+    if (props.path === "/projects/ag-logo-design") {
+      return "#53DBEB";
+    }
+    if (props.path === "/projects/femme-illustration") {
+      return "#8318BC";
+    }
+    if (props.path === "/projects/divergent-ux-app") {
+      return "#3D405B";
+    }
+    if (props.path === "/projects/mg-visual-identity") {
+      return "#F4737C";
+    }
+    if (props.path === "/projects/pop-art-illustration") {
+      return "#E6B33C";
+    }
+    if (props.path === "/projects/manga-illustration") {
+      return "#DC4206";
+    }
+  };
 
   return (
     <Layout>
@@ -34,7 +91,9 @@ const ProjectPage = ({ props }) => {
                 <Col md={2}>
                   <div className="skills-container">
                     <ul>
-                      <h3>Tools</h3>
+                      <h3 style={{ background: `${renderColourClass()}` }}>
+                        Tools
+                      </h3>
                       {props.pageContext.skills.map((item, i) => {
                         return <li key={`${i}-technologies`}>{item}</li>;
                       })}
@@ -42,7 +101,11 @@ const ProjectPage = ({ props }) => {
                   </div>
                 </Col>
               </Row>
-              {/* <img src={props.pageContext.prevImage} alt="image" /> */}
+              <img
+                src={renderImage()}
+                alt="image"
+                className={smallImageClass()}
+              />
             </Container>
           </div>
         </ProjectsWrap>
@@ -63,6 +126,12 @@ const ProjectsWrap = styled.div`
     width: 100%;
     height: auto;
     margin-bottom: 60px;
+
+    &.small-image {
+      max-width: 660px;
+      margin: auto;
+      display: block;
+    }
   }
 
   .back-button {
@@ -85,9 +154,25 @@ const ProjectsWrap = styled.div`
 
   .work-container {
     margin-bottom: 160px;
+
     p {
-      padding-right: 40px;
+      padding: 0 60px;
     }
+
+    img {
+      margin-top: 60px;
+    }
+  }
+
+  h3 {
+    padding: 5px 40px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    left: -17px;
   }
 `;
 
@@ -95,11 +180,6 @@ export default (props) => (
   <StaticQuery
     query={graphql`
       query {
-        allFile {
-          nodes {
-            publicURL
-          }
-        }
         allDataJson {
           edges {
             node {

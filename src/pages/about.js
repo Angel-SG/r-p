@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "gatsby";
-import Banner from "../components/banner";
 import styled from "styled-components";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -28,7 +26,10 @@ const AboutPage = () => {
           <Col sm={12} md={6}>
             <TextContainer>
               <p>Hello there,</p>
-              <p>I am Rose, a self taught Graphic Designer living in the UK.</p>
+              <p>
+                I am Rose, a self taught Graphic Designer living in Burgess
+                Hill, UK.
+              </p>
               <p>
                 I’ve always had an interest in Design, Arts and craft and it was
                 a year ago when I took the decision to pursue my new career.
@@ -40,7 +41,7 @@ const AboutPage = () => {
                 persistence I have a pool of knowledge about design foundation,
                 techniques and most commonly used tools. However, I feel that I
                 still have a very long road ahead to continue developing my
-                personal and design skills.{" "}
+                personal and design skills further.{" "}
               </p>
               <p>
                 During this time I had the opportunity to work in some small
@@ -64,7 +65,6 @@ const Img = styled.img`
   width: 100%;
   height: auto;
   max-width: 480px;
-  /* max-width: 400px; */
 `;
 
 const TextContainer = styled.div`

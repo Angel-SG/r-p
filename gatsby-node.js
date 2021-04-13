@@ -36,7 +36,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  console.log(result);
+  // console.log(result);
 
   const projectsArray = result.data.dataJson.projects;
 
