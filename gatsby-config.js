@@ -3,7 +3,7 @@ module.exports = {
     title: `Rose Fabra - Graphic Designer`,
     description: `Rose Fabra - Graphic Designer`,
     author: `Rose Fabra | Graphic Designer`,
-    siteUrl: `https://www.angel-sg.com`,
+    siteUrl: `https://loving-lalande-3dcc46.netlify.app/`,
     menuLinks: [
       {
         name: "Work",
@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.angel-sg.com`,
+        siteUrl: `https://loving-lalande-3dcc46.netlify.app/`,
       },
     },
     {
@@ -44,19 +44,13 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-136792428-1",
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Angel Sanchez - Front-end Web Developer.`,
+        name: `Rose Fabra - Graphic Designer`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#FFFFFF`,

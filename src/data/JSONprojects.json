@@ -4,73 +4,91 @@
       "id": 6,
       "slug": "femme-illustration",
       "title": "Femme system illustration",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "All women are part of Mother Earth and thanks to it and nature we all come as a seed from this gorgeous fruit. That’s the reason I thought that Illustrating a Female reproductive system giving it a twist was a great idea.",
+      "description2": "The work has been done in Procreate at early stages of my illustration learning progress and I worked layer by layer on each of the elements shown in it and giving some effects after to make it more appealing and real.",
+      "description3": "",
       "modalURL": "http://www.theeventagroup.com/",
       "image": {
         "src": "../images/femme_system_banner.png"
       },
+      "prevImage": { "src": "../images/femme_system_sketch.png" },
       "smallImage": "../images/femme_system_portrait.png",
-      "skills": ["HTML", "SCSS", "React JS"]
+      "skills": ["Procreate", "Pencil and Paper", "Affinity Designer"]
     },
     {
       "id": 0,
       "slug": "divergent-ux-app",
       "title": "Divergent UX app",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "Divergent it’s a prototype UX App from a course that I’m following in Udemy’s platform. This app is created to make a difference in your everyday’s life. I believe that small changes can make a huge difference and all together we can make a better earth.",
+      "description2": "This  Eco Rustic looking E-commerce offers a range of handmade, reusable and zero waste and products for you to make your own sustainable surroundings. Regarding your interest and likes the App  will tailor the best experience for you to reach the products that cover your needs.",
+      "description3": "I started designing some User Flows followed by Wireframes and then started the Design process with typographies, colour palettes, reusable components and so on. I am now in the process of creating it’s microinteractions for an animated prototype.",
       "modalURL": "http://www.theeventagroup.com/",
       "image": {
-        "src": "../images/divergent_banner.png"
+        "src": "../images/Divergent_app_banner.png"
       },
+      "prevImage": { "src": "../images/divergent_sketch.png" },
       "smallImage": "../images/app_portrait.png",
-      "skills": ["HTML", "SCSS", "Gatsby JS", "React JS", "Contentful CMS"]
+      "skills": ["Figma", "Concepts", "Affinity Photo", "Affinity Designer"]
     },
     {
       "id": 1,
       "slug": "ag-logo-design",
       "title": "Logo Design",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "A vector logo created  with Affinity Designer for a client that needed a Visual Identity for his Portfolio.",
+      "description2": "The customer requested a logo that contained the Initials of his name but that wouldn’t be too complex and he could modify the colours on the web.",
+      "description3": "As a result I delivered a minimal black svg file logo that had integrity between the two initials of his name as requested and also the client could update the colours. Afterwards he decided to add those colours shown in the final work.",
       "modalURL": "https://www.foodfornow.co.uk/",
       "image": {
         "src": "../images/ag_logo_banner.png"
       },
+      "prevImage": { "src": "../images/AG_logo_sketch.png" },
       "smallImage": "../images/ag_portrait.png",
-      "skills": ["HTML", "CSS", "jQuery", "Drupal DX8"]
+      "skills": ["Affinity Designer", "Pencil and paper"]
     },
     {
       "id": 2,
       "slug": "mg-visual-identity",
       "title": "Visual identity design",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "This is a vector logo created with Affinity designer for a Latino Music Singer in Miami that needs a Visual Identity. The customer had an old logo that contained the main elements that she wanted; A crown and the initials of her name but it wasn’t really plasming what she really wanted for the purpose and her personality.",
+      "description2": "Latino music is sexy and was born in Puerto Rico, a caribbean Island close to America. Singers empower people to love themselves, dance sexy and feel love in an open way. I wanted to reflect all the customer requests on the logo along with her full name as an Artist as this is must to get recognised by the audience, contribute to this purpose. Also her personality is sweet and glamorous so the style and colourfulness suits really well with all of it.",
+      "description3": "After getting the hands on sketching a few crowns and initials the client and me decided that the best combination to go ahead with the design process was the one shown in the portfolio. Also, we worked together choosing the right typography and the same for the colour palettes. The Business Cards it was another work that she needed done and we decided to follow the same style to give consistency to the project. As a result I delivered a tropical and sexy looking logo that she felt identified with to promote herself in the land of opportunities.",
       "modalURL": "https://www.closesavings.co.uk/",
       "image": {
         "src": "../images/mg_logo_banner.png"
       },
+      "prevImage": { "src": "../images/MG_logo_sketch.png" },
       "smallImage": "../images/mg_portrait.png",
-      "skills": ["HTML", "CSS", "javaScript", "Drupal DX8"]
+      "skills": ["Affinity Designer", "Pencil and paper"]
     },
     {
       "id": 3,
       "slug": "pop-art-illustration",
       "title": "Pop Art illustration",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "This is a Digital portrait Illustration created  from a selfie that we took last summer on a sunny day in England.",
+      "description2": "Due to the latest popularity that this kind of work has, it was something that I wanted to experiment and see what I could achieve with my digital drawing skills. ",
+      "description3": "I worked layer by layer on top of the real picture using Procreate software and using my creativity to apply the shinny, modern and summery looking that I was looking for. ",
       "modalURL": "https://www.novitasloans.co.uk/",
       "image": {
         "src": "../images/pop_art_banner.png"
       },
+      "prevImage": { "src": "../images/Pop_art_sketch_photo.png" },
       "smallImage": "../images/couple_portrait.png",
-      "skills": ["HTML", "CSS", "javaScript"]
+      "skills": ["Procreate", "Affinity Designer"]
     },
     {
       "id": 4,
       "slug": "manga-illustration",
       "title": "Manga carachter illustration",
-      "description": "LLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "description": "This is a Manga Illustration that few members of my family challenge me to do as they are fans of the Dragon Ball Z cartoons series. I got inspired by Goku, I love the version of  when he  was a kid and all came together with the elements that I could add into it.",
+      "description2": "On this project I sketched by hand the front and back view of the cartoon character and the flying nimbus. Then I worked layer by layer in procreate. Also I had to separately draw the Japanese logo on the front and back of Goku’s kimono. Once the cartoon was ready I decided to add a Galaxy background so it gave more depth and meaning to the illustration. ",
+      "description3": "Next step to follow would be creating an animation from this work as one of my main goals is get to know more about Adobe After Effects.",
       "modalURL": "https://kambi.com/our-offering",
       "image": {
         "src": "../images/dragon_ball_banner.png"
       },
+      "prevImage": { "src": "../images/Dragon_Ball_Z_sketch.png" },
       "smallImage": "../images/goku_portrait.png",
-      "skills": ["HTML", "CSS", "javaScript", "Drupal DX8"]
+      "skills": ["Procreate", "Pencil and paper", "Affinity Designer"]
     }
   ]
 }

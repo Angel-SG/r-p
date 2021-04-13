@@ -13,11 +13,16 @@ exports.createPages = async ({ graphql, actions }) => {
       dataJson {
         projects {
           description
+          description2
+          description3
           id
           image {
             src {
               publicURL
             }
+          }
+          prevImage {
+            src
           }
           smallImage {
             publicURL
@@ -31,7 +36,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  // console.log(result.data.dataJson.projects);
+  console.log(result);
 
   const projectsArray = result.data.dataJson.projects;
 
@@ -45,11 +50,14 @@ exports.createPages = async ({ graphql, actions }) => {
         slug: project.slug,
         id: project.id,
         description: project.description,
+        description2: project.description2,
+        description3: project.description3,
         image: project.image.src.publicURL,
         modalURL: project.modalURL,
         skills: project.skills,
         title: project.title,
-        smallImage: project.smallImage,
+        prevImage: project.prevImage.src,
+        smallImage: project.smallImage.publicURL,
       },
     });
   });

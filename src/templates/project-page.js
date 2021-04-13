@@ -7,6 +7,8 @@ import styled from "styled-components";
 const ProjectPage = ({ props }) => {
   const [addClass, setAddClass] = useState("");
 
+  console.log(props);
+
   useEffect(() => {
     setAddClass("loaded");
   }, []);
@@ -17,17 +19,19 @@ const ProjectPage = ({ props }) => {
         <ProjectsWrap className="project-wrap">
           <div className={`content-container ${addClass}`}>
             <Link to="/" className="back-button">
-              Back to Work
+              {`< Back to Work`}
             </Link>
             <h1>{props.pageContext.title}</h1>
 
             <img src={props.pageContext.image} alt={props.pageContext.title} />
             <Container className="work-container">
               <Row>
-                <Col md={8}>
+                <Col md={10}>
                   <p>{props.pageContext.description}</p>
+                  <p>{props.pageContext.description2}</p>
+                  <p>{props.pageContext.description3}</p>
                 </Col>
-                <Col md={4}>
+                <Col md={2}>
                   <div className="skills-container">
                     <ul>
                       <h3>Tools</h3>
@@ -38,6 +42,7 @@ const ProjectPage = ({ props }) => {
                   </div>
                 </Col>
               </Row>
+              {/* <img src={props.pageContext.prevImage} alt="image" /> */}
             </Container>
           </div>
         </ProjectsWrap>
@@ -60,6 +65,24 @@ const ProjectsWrap = styled.div`
     margin-bottom: 60px;
   }
 
+  .back-button {
+    font-weight: 600;
+    color: #444444;
+    margin-left: 50px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .skills-container {
+    ul {
+      padding-left: 15px;
+
+      li {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
   .work-container {
     margin-bottom: 160px;
     p {
@@ -72,16 +95,26 @@ export default (props) => (
   <StaticQuery
     query={graphql`
       query {
+        allFile {
+          nodes {
+            publicURL
+          }
+        }
         allDataJson {
           edges {
             node {
               projects {
                 description
+                description2
+                description3
                 id
                 modalURL
                 skills
                 slug
                 title
+                prevImage {
+                  src
+                }
               }
             }
           }

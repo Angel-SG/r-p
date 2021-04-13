@@ -61,7 +61,7 @@ const HeaderContainer = styled.div`
   }
 
   nav {
-    margin: 50px auto 50px auto;
+    margin: 50px auto 70px auto;
 
     ul {
       justify-content: center;

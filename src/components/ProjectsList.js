@@ -128,9 +128,16 @@ export default (props) => (
   <StaticQuery
     query={graphql`
       query {
+        allFile {
+          nodes {
+            publicURL
+          }
+        }
         dataJson {
           projects {
             description
+            description2
+            description3
             id
             image {
               src {
@@ -141,6 +148,9 @@ export default (props) => (
             modalURL
             slug
             title
+            prevImage {
+              src
+            }
             smallImage {
               publicURL
             }

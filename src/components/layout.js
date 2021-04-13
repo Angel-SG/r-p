@@ -37,6 +37,11 @@ const GlobalStyle = createGlobalStyle`
   label {
     color: #444444;
   }
+
+  p {
+    font-size: 17px;
+    line-height: 24px;
+  }
 `;
 
 class Layout extends React.Component {
