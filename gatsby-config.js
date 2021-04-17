@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Rose Fabra - Graphic Designer`,
-    description: `Rose Fabra - Graphic Designer`,
+    title: `Rose Gracia - Graphic Designer`,
+    description: `Rose Gracia - Graphic Designer`,
     author: `Rose Fabra | Graphic Designer`,
     siteUrl: `https://loving-lalande-3dcc46.netlify.app/`,
     menuLinks: [

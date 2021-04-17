@@ -125,7 +125,11 @@ const ProjectsWrap = styled.div`
   img {
     width: 100%;
     height: auto;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 60px;
+    }
 
     &.small-image {
       max-width: 660px;
@@ -137,14 +141,22 @@ const ProjectsWrap = styled.div`
   .back-button {
     font-weight: 600;
     color: #444444;
-    margin-left: 50px;
+    margin-left: 20px;
     font-size: 18px;
     text-decoration: none;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 50px;
+    }
   }
 
   .skills-container {
     ul {
-      padding-left: 15px;
+      padding-left: 30px;
+
+      @media screen and (min-width: 768px) {
+        padding-left: 15px;
+      }
 
       li {
         padding-bottom: 10px;
@@ -156,7 +168,11 @@ const ProjectsWrap = styled.div`
     margin-bottom: 160px;
 
     p {
-      padding: 0 60px;
+      padding: 0 15px;
+
+      @media screen and (min-width: 768px) {
+        padding: 0 60px;
+      }
     }
 
     img {

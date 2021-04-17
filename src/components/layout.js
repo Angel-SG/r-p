@@ -7,6 +7,12 @@ import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+// @media screen and (min-width: 576px) {}
+// @media screen and (min-width: 768px) {}
+// @media screen and (min-width: 992px) {}
+// @media screen and (min-width: 1200px) {}
+
   html {
     font-family: 'Montserrat', sans-serif;
     -ms-text-size-adjust: 100%;
@@ -41,6 +47,10 @@ const GlobalStyle = createGlobalStyle`
   p {
     font-size: 17px;
     line-height: 24px;
+  }
+
+  .bm-burger-bars{
+    border-radius: 5px;
   }
 `;
 

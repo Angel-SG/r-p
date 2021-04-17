@@ -51,7 +51,7 @@ const HeaderContainer = styled.div`
     width: 100%;
     background-image: url(${BgImage});
     background-size: cover;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
     a {
       text-align: center;
@@ -62,6 +62,11 @@ const HeaderContainer = styled.div`
 
   nav {
     margin: 50px auto 70px auto;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
 
     ul {
       justify-content: center;
@@ -78,7 +83,7 @@ const HeaderContainer = styled.div`
           border-bottom: 3px solid transparent;
 
           &.active {
-            border-bottom: 3px solid #444444;
+            border-bottom: 3px solid #ffc4d1;
           }
         }
       }

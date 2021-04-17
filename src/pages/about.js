@@ -37,11 +37,11 @@ const AboutPage = () => {
                 scratch and learn about the complex world of Graphic Design.{" "}
               </p>
               <p>
-                After a year and a half of self-studying, hard-work and
-                persistence I have a pool of knowledge about design foundation,
-                techniques and most commonly used tools. However, I feel that I
-                still have a very long road ahead to continue developing my
-                personal and design skills further.{" "}
+                After this time of self-studying, hard-work and persistence I
+                have a pool of knowledge about design foundation, techniques and
+                most commonly used tools. However, I feel that I still have a
+                very long road ahead to continue developing my personal and
+                design skills further.{" "}
               </p>
               <p>
                 During this time I had the opportunity to work in some small
@@ -68,12 +68,16 @@ const Img = styled.img`
 `;
 
 const TextContainer = styled.div`
-  padding-left: 30px;
+  padding-left: 0px;
   height: 100%;
   display: flex;
 
   justify-content: center;
   flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 30px;
+  }
 `;
 
 export default AboutPage;

@@ -8,11 +8,10 @@ import "video-react/dist/video-react.css";
 import ProjectsList from "../components/ProjectsList";
 
 const IndexPage = (props) => {
-  console.log(props);
   return (
     <div>
       <Layout>
-        <SEO title="Rose Fabra | Graphic Designer" />
+        <SEO title="Rose Gracia | Graphic Designer" />
         <ProjectsList />
       </Layout>
     </div>
