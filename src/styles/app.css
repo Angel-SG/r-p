@@ -1,0 +1,20 @@
+.project-img-wrap {
+  max-height: 288px;
+  min-height: 288px;
+  overflow: hidden;
+  position: relative;
+  display: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.project-img-wrap img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.project-img-wrap:focus {
+  outline: none;
+}

@@ -18,6 +18,7 @@
     "gatsby-plugin-sharp": "^2.2.28",
     "gatsby-plugin-sitemap": "^2.2.26",
     "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gatsby-plugin-styled-components": "^4.3.0",
     "gatsby-source-filesystem": "^2.1.29",
     "gatsby-transformer-json": "^2.2.19",
     "gatsby-transformer-sharp": "^2.2.20",
